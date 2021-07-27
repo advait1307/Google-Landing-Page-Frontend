@@ -1,0 +1,226 @@
+body{
+ margin: 0px;
+ position: absolute;
+}
+
+.bottom{
+  width: 100vw; 
+  position: fixed; 
+  bottom: 0;
+  background-color: #f2f2f2;
+}
+
+footer ul li {
+  display: inline;
+  color: #70757a;
+  font-size: 14px;
+  padding: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+  height: auto;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  float: right;
+}
+
+footer ul a:link {
+  text-decoration: none;
+  color: #70757a;
+}
+  
+footer ul a:visited {
+  text-decoration: none;
+  color: #70757a;
+}
+  
+footer ul a:hover {
+  text-decoration:underline;
+  color: #70757a;
+  cursor: pointer;
+}
+  
+footer ul a:active {
+  text-decoration: none;
+  color: #70757a;
+}
+
+
+.LRow2 {
+  background: #f2f2f2;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  font-family: arial,sans-serif;
+}
+
+
+.Lang{
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  color: #222;
+  position:relative;
+  height: 21.5vw;
+}
+
+.Lang a{
+  color: #1a0dab;
+  padding: 0 3px;
+  text-decoration: none;
+}
+
+.Lang a:hover{
+  color: #1a0dab;
+  padding: 0 3px;
+  text-decoration: underline;
+}
+
+
+.bb{
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+input[type="text"] {
+  padding: 5px 30px 0px 45px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 37px;
+  width: 510px;
+  margin: 0 auto;
+  position: relative;
+  outline:none;
+}
+
+.bar:hover{
+  content: attr(title);
+}
+
+input:hover::after{
+  box-shadow: 100px 10px red;
+}
+
+.ss{
+	background-repeat: no-repeat;
+  align-items: center;
+  background-image: url(https://i.ibb.co/y4R76Zd/mic.png), url(https://i.ibb.co/fdrwS5g/search-glasss.png);
+  background-position: 96.5% 50%, 2.66% 53%;
+  background-size:14px,20px;
+}
+
+.dropbtn{
+  border-color: transparent;
+  background-color: #f2f2f2;
+  color: #70757a;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+
+.dropbtn:hover{
+  text-decoration: underline;
+  cursor: pointer; 
+  background-color: #f2f2f2; 
+  border-color: transparent;
+}
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0mm;
+  color: #000000DE;
+  justify-content: space-evenly;
+}
+
+.navbar{
+  display: flex; 
+  justify-content: flex-end;
+  font-size: 13px;
+  font-family: arial,sans-serif;
+  color: #000000DE;
+  vertical-align:text-top;
+  align-content: center;
+  padding: 6px;
+  height: 48px;
+}
+
+.navbar a{
+  color: #000000DE;
+  text-decoration: none;
+}
+
+.navbar li{
+  display:inline;
+  color: #000000DE;
+  text-decoration: none;
+  padding: 0 0 0 15px;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+  color: #000000DE;
+}
+
+.dp img:hover{
+  background-color: #f2f2f2;
+  border-width: 0.01vw;
+  z-index: -1;
+}
+
+.apps img:hover{
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+
+.Urow{
+  padding: 0px 4px 0 32px;
+}
+
+.btns button:hover{
+  border: 1px solid #dfe1e5;
+  box-shadow: 0px 1px px -2px #dfe1e5;
+}
+
+input:hover{
+  box-shadow: 0px 0px 10px 0px #dfe1e5;
+}
+
+.bar .sb{
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
