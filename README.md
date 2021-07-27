@@ -1,3 +1,3 @@
 # Google-Landing-Page-Frontend
 
-bjjbfjdbfjddcdc
+Duplicated the landing page of google search using HTML and CSS
